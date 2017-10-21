@@ -1,0 +1,138 @@
+body { // Alignage et centrage du texte et du fond. Le "cover" sert à cet alignage de h1 & h2
+background-size: cover;
+    text-align: center;
+}
+
+header { // En tête avec Background Logo Chat
+width: 100vw;
+    height: 75vh;
+    background-image: url("https://i1.wp.com/pascalridel.com/wp-content/uploads/2017/03/banniere_infographies_avec_des_chats.png?w=2000&ssl=1");
+    background-position: center;
+    background-size: cover;
+    margin: -40px -20px;
+    z-index: 8;
+    top: 0px;
+}
+
+header h1 {
+    font-family: 'Algerian', cursive;
+    color: white;
+    font-size: 6em;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+
+header h2 {
+    font-family: 'Lucida Handwriting';
+    color: white;
+    font-size: 1.6em;
+    position: relative;
+    margin: -40px -20px;
+    z-index: 8;
+    top: 0px;
+}
+
+ul {
+    background-color: black;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: -40px -20px;
+    z-index: 8;
+    top: 0px;
+}
+li{
+    color: #FF4500;
+    font-size: 1.2em;
+}
+
+a {
+    color: white;
+    font-family: sans-serif;
+}
+a:hover {
+    background-color: white;
+    color: #FF4500;
+    font-size: 1em;
+    border: 18px solid white;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    float: right;
+}
+.clearfix {
+    overflow: auto;
+    font-size: 1.2em;
+    width: 85vw;
+}
+
+h3 {
+    background: #F4661B;
+    font-family: 'Lucida Handwriting';
+    color: black;
+    font-size: 3em;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-size: 1.8em;
+    color: #708090;
+}
+
+.contain { // Conteneur général, il contient tes sections
+width: 70vw;
+    margin: auto;
+}
+
+.contain section  { // Chaques Sections
+width: 80%;
+    height: 50%;
+    color: grey;
+    margin: auto;
+}
+
+.contain p { //Les paragraphes des sections
+font-size: 3em;
+    font-family: sans-serif;
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+input {
+    border-color: black;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 95px;
+}
+input[type="submit"] {
+    background: red;
+    color: white;
+}
+
+// le pied de la page avec tous les liens nécessaires...
+   footer {
+       width: 100vw;
+       height: auto;
+   }
+footer ul { // background et couleur du pied de la page pour rester en cohérence avec le design du site
+background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+button { //bouton Wild Circus en JQuery
+font-size: 1.3em;
+    background-color: orange;
+    color: white;
+    width: 100px;
+}
